@@ -19,12 +19,12 @@ Food: Rizzis
 **Why?**
 
 Things change, and we need to be flexible when new information comes about.  
-*Learning that Pluto is no longer a planet, may be dificult to accept the change.*  
+*Learning that Pluto is no longer a planet, may be difficult to accept the change.*  
 In Business, IT, Technology, and Security, things change, information changes.
 How we address or evaluate things change. 
 
 > Mark Twain:  
-"It aint what you don't know that gets you into trouble. It's what you know for sure that just ain't so."  
+"It ain't what you don't know that gets you into trouble. It's what you know for sure that just ain't so."  
 
 ---
 
@@ -102,7 +102,7 @@ Lessons Learned
 ## Incident Response
 ### What's new?
 
-PICERL are very linear processes and don't necessarilty represent IR processes that run in tandem. This also doesn't cover repeated processes or re-work. Since these are arbitrary steps, the terminology is changing to waypoints, actions, or outcomes. 
+PICERL are very linear processes and don't necessarily represent IR processes that run in tandem. This also doesn't cover repeated processes or re-work. Since these are arbitrary steps, the terminology is changing to waypoints, actions, or outcomes. 
 There are now "response actions" loops.  
 
 ---
@@ -128,7 +128,7 @@ We are here.
 ## Incident Response
 ## Detect
 
-Events of Interest (EoI) these can be alerts, notifications from whereever.  
+Events of Interest (EoI) these can be alerts, notifications from wherever.  
 Is this an Indicator of Attack (IoA)?  
 How long was it from the event to the detection, to the determination?  
 This is Mean Time To Detection (MTTD). This is one of those benchmarking terms.  
@@ -140,7 +140,7 @@ Another is Mean Time To Response (MTTR). How long was it from event to something
 ## Verify, Triage
 
 This is a new section, not previously in PICERL or NIST.  
-Is it an Event of Interest, has it passed some threashold?  Is it an attack?  
+Is it an Event of Interest, has it passed some threshold?  Is it an attack?  
 Some triage, may be automated. Unwanted scans for a known vuln, may trigger automated response (containment) such as blocking IP addresses.  However, it may also be larger, more critical, with Indicators of Compromise (IoCs) and Management/leadership must be involved. Which takes us into the round-a-bout.  
 
 ---
@@ -162,7 +162,7 @@ To me, this is apropos for starting the loop, or round-a-bout. The scope often c
 ## Contain
 
 Stop the bleeding. This is a major milestone and isn't easy. IT by nature starts fixing the issue. Management wants to know risk to make a decision. Do we need forensic evidence that hasn't been changed? Technology has made much of this easier, however, without Playbooks, or Procedures critical data may be lost.  
-As an example, IT starts fixing the issue, freeing up disk space by deleting files, killing processes, shutting systems down, or rebooting. Snapshots can be made of virtual systems, but quite often memory is not included by default in snapshots. Without an accurate scope, containment can become whack-a-mole, itterating through systems in-scope.
+As an example, IT starts fixing the issue, freeing up disk space by deleting files, killing processes, shutting systems down, or rebooting. Snapshots can be made of virtual systems, but quite often memory is not included by default in snapshots. Without an accurate scope, containment can become whack-a-mole, iterating through systems in-scope.
 
 ---
 ## Incident Response
@@ -185,9 +185,9 @@ Bring systems back on-line, Ensure that the root cause has been remediated.  Any
 ## Incident Response
 ## Debrief  
 
-Each time around the loop add to the stack of items that were covered. Note what went well, what could be improved, and any blockers that occured.  
-This may be the after-action report, it is an artifact that documents the incident and related details. Executive reports, stackholder notifications, regulatory reporting, public disclosures, will derive from this artifact.  
+Each time around the loop add to the stack of items that were covered. Note what went well, what could be improved, and any blockers that occurred.  
+This may be the after-action report, it is an artifact that documents the incident and related details. Executive reports, stakeholder notifications, regulatory reporting, public disclosures, will derive from this artifact.  
 
-Lessons Learned is the scheduled meeting to review, what changes were implemented, how things went, and what has been implemented to prevent future occurances. This is where SLA's, Mean Time stats are analyzed, and performance analysis of the IR are reviewed.  
+Lessons Learned is the scheduled meeting to review, what changes were implemented, how things went, and what has been implemented to prevent future occurrences. This is where SLA's, Mean Time stats are analyzed, and performance analysis of the IR are reviewed.  
 
 ---

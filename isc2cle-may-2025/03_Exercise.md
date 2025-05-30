@@ -52,7 +52,7 @@ Exploitation of the CRM web app, to pivot to the internal network.
 Lateral movement from the CRM to the back end systems.  
 Weak passwords, re-used passwords, passwords in scripts.  
 Internal monitoring and alerts.  
-Addition of the service on the server was probably a persistance connection.  
+Addition of the service on the server was probably a persistence connection.  
 Didn't catch things on the firewall.  
 Didn't scan any other systems for IoCs.  
 
